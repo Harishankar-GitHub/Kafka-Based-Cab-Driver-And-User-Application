@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "6418fcef-f5e7-4150-96ac-9ea88002933d",
+		"name": "Kafka - Cab Driver and User Application",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15864431"
+	},
+	"item": [
+		{
+			"name": "Cab Driver API to publish live locations",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/location",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"location"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
